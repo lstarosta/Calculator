@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Whole "device"-->
+        <div class="calculator" id="calculator">
+
+            <div id="display">
+                <!--Result displayed after being calculated-->
+                <div id="result"></div>
+                <!--User's input-->
+                <div id="input"></div>
+            </div>
+
+            <!--Actual interface-->
+            <div id="buttons">
+                <table>
+                    <tr>
+                        <td id="button7">7</td>
+                        <td id="button8">8</td>
+                        <td class="rightBorder" id="button9">9</td>
+                        <td id="buttonDivide">/</td>
+                    </tr>
+                    <tr>
+                        <td id="button4">4</td>
+                        <td id="button5">5</td>
+                        <td class="rightBorder" id="button6">6</td>
+                        <td id="buttonTimes">x</td>
+                    </tr>
+                    <tr>
+                        <td class="bottomBorder" id="button1">1</td>
+                        <td id="button2">2</td>
+                        <td class="rightBorder bottomBorder" id="button3">3</td>
+                        <td id="buttonMinus">-</td>
+                    </tr>
+                    <tr>
+                        <td class="lastRow" id="buttonC">C</td>
+                        <td class="lastRow zero" id="button0">0</td>
+                        <td class="lastRow" id="buttonEquals">=</td>
+                        <td class="lastRow" id="buttonPlus">+</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="credits">Made by starostv</div>          
+        </div>
+    
+        <script src="scripts.js"></script>
+    </body>
+</html>
